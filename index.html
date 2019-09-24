@@ -1,5 +1,14 @@
-<script src="https://unpkg.com/vue"></script>
-
-<div id="app">
-  <p>{{ message }}</p>
-</div>
+<html>
+  <body>
+    <div id="example">
+      <p>{{ me }}</p>
+    </div>
+    <script src="https://unpkg.com/vue"></script>
+    <script>
+        new Vue({
+            el: '#example',
+            data: { me: 'Eddie.' }
+        })
+    </script>
+  </body>
+</html>
